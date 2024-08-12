@@ -13,7 +13,7 @@ resource "aws_vpn_connection" "vpn_spoke_vpc2_vpngw_x_fw01" {
   tunnel1_inside_cidr = "169.254.20.0/30"
 
   tunnel2_preshared_key = "mySuperSecretKey123" 
-  tunnel1_inside_cidr = "169.254.21.0/30"
+  tunnel2_inside_cidr = "169.254.21.0/30"
 
   tags = {
     Name = "vpn_spoke_vpc2_vpngw_x_fw01"
@@ -35,7 +35,7 @@ resource "aws_vpn_connection" "vpn_spoke_vpc2_vpngw_x_fw02" {
   tunnel1_inside_cidr = "169.254.22.0/30"
 
   tunnel2_preshared_key = "mySuperSecretKey123" 
-  tunnel1_inside_cidr = "169.254.23.0/30"
+  tunnel2_inside_cidr = "169.254.23.0/30"
 
 
   tags = {
