@@ -1,13 +1,13 @@
 # paloalto-transit-vpc-topology
-Script para criar VPC Transit.
-Esse script cria a estrutura de VPC Transit e 2 VPC Spokes que serão conectados ao VPC Transit atravez de VPN IPsec
-
-
-Pre-Requisitos:
--aws-cli
--terraform
-
-Configure o AWS-cli <br> incluindo a chave 
+Script para criar VPC Transit. <br>
+Esse script cria a estrutura de VPC Transit e 2 VPC Spokes que serão conectados ao VPC Transit atravez de VPN IPsec <br>
+<br>
+<br>
+Pre-Requisitos:<br>
+-aws-cli<br>
+-terraform<br>
+<br>
+Configure o AWS-cli  incluindo a chave 
 dentro da console da AWS defina a access-key para o usuario:
 IAM --> user --> Security Credental --> Access-Key --> Create access-key 
 configure o aws cli 
