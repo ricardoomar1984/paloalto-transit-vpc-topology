@@ -7,7 +7,7 @@ Pre-Requisitos:
 -aws-cli
 -terraform
 
-Configure o AWS-cli incluindo a chave 
+Configure o AWS-cli <br> incluindo a chave 
 dentro da console da AWS defina a access-key para o usuario:
 IAM --> user --> Security Credental --> Access-Key --> Create access-key 
 configure o aws cli 
